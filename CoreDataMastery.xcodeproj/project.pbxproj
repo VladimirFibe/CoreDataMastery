@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E82817BE2BE7D0D900410F65 /* ParkEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82817BD2BE7D0D900410F65 /* ParkEntity+Extension.swift */; };
+		E82817C02BE7D3A400410F65 /* ParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82817BF2BE7D3A400410F65 /* ParksView.swift */; };
 		E82B3BDE2BE79DCB00D956CE /* CoreDataMasteryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B3BDD2BE79DCB00D956CE /* CoreDataMasteryApp.swift */; };
 		E82B3BE02BE79DCB00D956CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B3BDF2BE79DCB00D956CE /* ContentView.swift */; };
 		E82B3BE22BE79DCC00D956CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82B3BE12BE79DCC00D956CE /* Assets.xcassets */; };
 		E82B3BE52BE79DCC00D956CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82B3BE42BE79DCC00D956CE /* Preview Assets.xcassets */; };
+		E82B3BED2BE7A68600D956CE /* MasteryData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E82B3BEB2BE7A68600D956CE /* MasteryData.xcdatamodeld */; };
+		E82B3BEF2BE7AD9800D956CE /* CoreDataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B3BEE2BE7AD9800D956CE /* CoreDataManger.swift */; };
+		E82B3BF12BE7B48800D956CE /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B3BF02BE7B48800D956CE /* PeopleView.swift */; };
+		E8A094212BE7C3280022C3CA /* PreviewingDataIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A094202BE7C3280022C3CA /* PreviewingDataIntro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E82817BD2BE7D0D900410F65 /* ParkEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ParkEntity+Extension.swift"; sourceTree = "<group>"; };
+		E82817BF2BE7D3A400410F65 /* ParksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksView.swift; sourceTree = "<group>"; };
 		E82B3BDA2BE79DCB00D956CE /* CoreDataMastery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataMastery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82B3BDD2BE79DCB00D956CE /* CoreDataMasteryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataMasteryApp.swift; sourceTree = "<group>"; };
 		E82B3BDF2BE79DCB00D956CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E82B3BE12BE79DCC00D956CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E82B3BE42BE79DCC00D956CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E82B3BEC2BE7A68600D956CE /* MasteryData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MasteryData.xcdatamodel; sourceTree = "<group>"; };
+		E82B3BEE2BE7AD9800D956CE /* CoreDataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManger.swift; sourceTree = "<group>"; };
+		E82B3BF02BE7B48800D956CE /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		E8A094202BE7C3280022C3CA /* PreviewingDataIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewingDataIntro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				E82B3BDD2BE79DCB00D956CE /* CoreDataMasteryApp.swift */,
 				E82B3BDF2BE79DCB00D956CE /* ContentView.swift */,
+				E82817BF2BE7D3A400410F65 /* ParksView.swift */,
+				E82B3BF02BE7B48800D956CE /* PeopleView.swift */,
+				E82B3BEE2BE7AD9800D956CE /* CoreDataManger.swift */,
+				E8A094202BE7C3280022C3CA /* PreviewingDataIntro.swift */,
+				E82817BD2BE7D0D900410F65 /* ParkEntity+Extension.swift */,
+				E82B3BEB2BE7A68600D956CE /* MasteryData.xcdatamodeld */,
 				E82B3BE12BE79DCC00D956CE /* Assets.xcassets */,
 				E82B3BE32BE79DCC00D956CE /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82B3BEF2BE7AD9800D956CE /* CoreDataManger.swift in Sources */,
+				E82B3BF12BE7B48800D956CE /* PeopleView.swift in Sources */,
+				E82B3BED2BE7A68600D956CE /* MasteryData.xcdatamodeld in Sources */,
+				E82817BE2BE7D0D900410F65 /* ParkEntity+Extension.swift in Sources */,
 				E82B3BE02BE79DCB00D956CE /* ContentView.swift in Sources */,
+				E8A094212BE7C3280022C3CA /* PreviewingDataIntro.swift in Sources */,
+				E82817C02BE7D3A400410F65 /* ParksView.swift in Sources */,
 				E82B3BDE2BE79DCB00D956CE /* CoreDataMasteryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +368,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E82B3BEB2BE7A68600D956CE /* MasteryData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E82B3BEC2BE7A68600D956CE /* MasteryData.xcdatamodel */,
+			);
+			currentVersion = E82B3BEC2BE7A68600D956CE /* MasteryData.xcdatamodel */;
+			name = MasteryData.xcdatamodeld;
+			path = /Users/macservice/Developer/CoreDataMastery/CoreDataMastery/MasteryData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E82B3BD22BE79DCB00D956CE /* Project object */;
 }
