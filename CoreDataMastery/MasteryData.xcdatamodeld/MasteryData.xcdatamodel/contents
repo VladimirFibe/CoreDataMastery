@@ -15,5 +15,10 @@
         <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>
     </entity>
-    <fetchRequest name="FetchRequest" entity="ParkEntity" predicateString="country_ == &quot;United State&quot; AND region_ == &quot;Utah&quot;"/>
+    <entity name="TaskEntity" representedClassName="TaskEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="done" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="dueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="taskName" optional="YES" attributeType="String"/>
+    </entity>
 </model>

@@ -24,7 +24,7 @@ extension ParkEntity {
         }
     }
     
-    var country: String {
+    @objc var country: String {
         get {
             country_ ?? "N/A"
         }

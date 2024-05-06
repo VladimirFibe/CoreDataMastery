@@ -17,6 +17,13 @@
 		E82B3BEF2BE7AD9800D956CE /* CoreDataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B3BEE2BE7AD9800D956CE /* CoreDataManger.swift */; };
 		E82B3BF12BE7B48800D956CE /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B3BF02BE7B48800D956CE /* PeopleView.swift */; };
 		E8A094212BE7C3280022C3CA /* PreviewingDataIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A094202BE7C3280022C3CA /* PreviewingDataIntro.swift */; };
+		E8BBCA7F2BE87FD800A8838F /* FetchRequestBuiltIntoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBCA7E2BE87FD800A8838F /* FetchRequestBuiltIntoEntity.swift */; };
+		E8BBCA812BE88CDE00A8838F /* SFRIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBCA802BE88CDE00A8838F /* SFRIntro.swift */; };
+		E8BBCA832BE8944900A8838F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBCA822BE8944900A8838F /* SwiftUIView.swift */; };
+		E8BBCA8B2BE8A35200A8838F /* TaskEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBCA8A2BE8A35200A8838F /* TaskEntity+Extension.swift */; };
+		E8BBCA8E2BE8B47A00A8838F /* MOCDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBCA8D2BE8B47A00A8838F /* MOCDelete.swift */; };
+		E8BBCA902BE8E47400A8838F /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBCA8F2BE8E47400A8838F /* EditTaskView.swift */; };
+		E8BBCA922BE8EDF400A8838F /* InsertTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBCA912BE8EDF400A8838F /* InsertTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,13 @@
 		E82B3BEE2BE7AD9800D956CE /* CoreDataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManger.swift; sourceTree = "<group>"; };
 		E82B3BF02BE7B48800D956CE /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 		E8A094202BE7C3280022C3CA /* PreviewingDataIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewingDataIntro.swift; sourceTree = "<group>"; };
+		E8BBCA7E2BE87FD800A8838F /* FetchRequestBuiltIntoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequestBuiltIntoEntity.swift; sourceTree = "<group>"; };
+		E8BBCA802BE88CDE00A8838F /* SFRIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFRIntro.swift; sourceTree = "<group>"; };
+		E8BBCA822BE8944900A8838F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		E8BBCA8A2BE8A35200A8838F /* TaskEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskEntity+Extension.swift"; sourceTree = "<group>"; };
+		E8BBCA8D2BE8B47A00A8838F /* MOCDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOCDelete.swift; sourceTree = "<group>"; };
+		E8BBCA8F2BE8E47400A8838F /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		E8BBCA912BE8EDF400A8838F /* InsertTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,16 +77,11 @@
 		E82B3BDC2BE79DCB00D956CE /* CoreDataMastery */ = {
 			isa = PBXGroup;
 			children = (
-				E82B3BDD2BE79DCB00D956CE /* CoreDataMasteryApp.swift */,
-				E82B3BDF2BE79DCB00D956CE /* ContentView.swift */,
-				E82817BF2BE7D3A400410F65 /* ParksView.swift */,
-				E82B3BF02BE7B48800D956CE /* PeopleView.swift */,
-				E82B3BEE2BE7AD9800D956CE /* CoreDataManger.swift */,
-				E8A094202BE7C3280022C3CA /* PreviewingDataIntro.swift */,
-				E82817BD2BE7D0D900410F65 /* ParkEntity+Extension.swift */,
-				E82B3BEB2BE7A68600D956CE /* MasteryData.xcdatamodeld */,
-				E82B3BE12BE79DCC00D956CE /* Assets.xcassets */,
-				E82B3BE32BE79DCC00D956CE /* Preview Content */,
+				E8BBCA852BE8A2AC00A8838F /* App */,
+				E8BBCA862BE8A2BC00A8838F /* Supporting Files */,
+				E8BBCA872BE8A30700A8838F /* Person */,
+				E8BBCA842BE8A29F00A8838F /* Park */,
+				E8BBCA8C2BE8B1F100A8838F /* Task */,
 			);
 			path = CoreDataMastery;
 			sourceTree = "<group>";
@@ -83,6 +92,58 @@
 				E82B3BE42BE79DCC00D956CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8BBCA842BE8A29F00A8838F /* Park */ = {
+			isa = PBXGroup;
+			children = (
+				E82817BD2BE7D0D900410F65 /* ParkEntity+Extension.swift */,
+				E8BBCA7E2BE87FD800A8838F /* FetchRequestBuiltIntoEntity.swift */,
+				E8BBCA802BE88CDE00A8838F /* SFRIntro.swift */,
+				E8BBCA822BE8944900A8838F /* SwiftUIView.swift */,
+				E82817BF2BE7D3A400410F65 /* ParksView.swift */,
+			);
+			path = Park;
+			sourceTree = "<group>";
+		};
+		E8BBCA852BE8A2AC00A8838F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E82B3BDD2BE79DCB00D956CE /* CoreDataMasteryApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E8BBCA862BE8A2BC00A8838F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E82B3BEE2BE7AD9800D956CE /* CoreDataManger.swift */,
+				E82B3BEB2BE7A68600D956CE /* MasteryData.xcdatamodeld */,
+				E82B3BE12BE79DCC00D956CE /* Assets.xcassets */,
+				E82B3BE32BE79DCC00D956CE /* Preview Content */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8BBCA872BE8A30700A8838F /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				E82B3BF02BE7B48800D956CE /* PeopleView.swift */,
+				E8A094202BE7C3280022C3CA /* PreviewingDataIntro.swift */,
+				E82B3BDF2BE79DCB00D956CE /* ContentView.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		E8BBCA8C2BE8B1F100A8838F /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				E8BBCA8A2BE8A35200A8838F /* TaskEntity+Extension.swift */,
+				E8BBCA8D2BE8B47A00A8838F /* MOCDelete.swift */,
+				E8BBCA8F2BE8E47400A8838F /* EditTaskView.swift */,
+				E8BBCA912BE8EDF400A8838F /* InsertTaskView.swift */,
+			);
+			path = Task;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,10 +217,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E82B3BEF2BE7AD9800D956CE /* CoreDataManger.swift in Sources */,
+				E8BBCA8B2BE8A35200A8838F /* TaskEntity+Extension.swift in Sources */,
+				E8BBCA8E2BE8B47A00A8838F /* MOCDelete.swift in Sources */,
+				E8BBCA902BE8E47400A8838F /* EditTaskView.swift in Sources */,
 				E82B3BF12BE7B48800D956CE /* PeopleView.swift in Sources */,
+				E8BBCA832BE8944900A8838F /* SwiftUIView.swift in Sources */,
+				E8BBCA922BE8EDF400A8838F /* InsertTaskView.swift in Sources */,
 				E82B3BED2BE7A68600D956CE /* MasteryData.xcdatamodeld in Sources */,
 				E82817BE2BE7D0D900410F65 /* ParkEntity+Extension.swift in Sources */,
 				E82B3BE02BE79DCB00D956CE /* ContentView.swift in Sources */,
+				E8BBCA7F2BE87FD800A8838F /* FetchRequestBuiltIntoEntity.swift in Sources */,
+				E8BBCA812BE88CDE00A8838F /* SFRIntro.swift in Sources */,
 				E8A094212BE7C3280022C3CA /* PreviewingDataIntro.swift in Sources */,
 				E82817C02BE7D3A400410F65 /* ParksView.swift in Sources */,
 				E82B3BDE2BE79DCB00D956CE /* CoreDataMasteryApp.swift in Sources */,
@@ -376,8 +444,7 @@
 				E82B3BEC2BE7A68600D956CE /* MasteryData.xcdatamodel */,
 			);
 			currentVersion = E82B3BEC2BE7A68600D956CE /* MasteryData.xcdatamodel */;
-			name = MasteryData.xcdatamodeld;
-			path = /Users/macservice/Developer/CoreDataMastery/CoreDataMastery/MasteryData.xcdatamodeld;
+			path = MasteryData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

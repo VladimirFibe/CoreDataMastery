@@ -4,7 +4,7 @@ import SwiftUI
 struct CoreDataMasteryApp: App {
     var body: some Scene {
         WindowGroup {
-            ParksView()
+            MOCDelete()
                 .environment(\.managedObjectContext, CoreDataManger().persistentContainer.viewContext)
         }
     }
